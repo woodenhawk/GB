@@ -97,3 +97,5 @@ while result < b:
     result = result+(result/10)
     ++day
 print(day)
+
+#
