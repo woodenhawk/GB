@@ -5,13 +5,13 @@
 
 a = int(input("Введите первое число:"))
 b = int(input("Введите второе число:"))
-def Div(a, b):
+def div(a, b):
     try:
         c = a / b
         return c
     except ZeroDivisionError:
         print("На ноль делить нельзя")
-print(Div(a, b))
+print(div(a, b))
 
 
 '''
@@ -22,11 +22,11 @@ print(Div(a, b))
 '''
 
 
-def UserData(firstName, lastName, birthday, city, email, phone):
+def useruata(firstName, lastName, birthday, city, email, phone):
     data = firstName + " " + lastName + " " + birthday + " " + city + " " + email + " " + phone
     return data
 
-print(UserData(firstName=input('Введите имя\n'),
+print(userdata(firstName=input('Введите имя\n'),
                lastName=input('Введите фамилию\n'),
                birthday=input('Введите год рождения\n'),
                city=input('Введите город\n'),
