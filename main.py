@@ -59,13 +59,13 @@ print(my_func(a, b, c))
 
 
 
-def my_func(x, y):
+def degree(x, y):
     return x**y
 
 x = int(input("Введите число x\n"))
 y = int(input("Введите число y\n"))
 
-print(my_func(x, y))
+print(degree(x, y))
 
 '''
 5. Программа запрашивает у пользователя строку чисел, разделённых пробелом.
